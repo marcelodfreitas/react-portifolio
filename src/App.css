@@ -628,7 +628,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact Css ************/
 .contact {
-  background: linear-gradient(#d9d9d9, #04f700);
+  background-color: #151515 ;
   padding: 100px 0 100px 0;
 }
 .contact img {
@@ -674,7 +674,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #000;
   background-color: #fff;
   padding: 14px 48px;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 25px;
   border-radius: 10px;
   position: relative;
@@ -696,7 +696,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #04f700;
   width: 0;
   height: 100%;
   position: absolute;
