@@ -4,6 +4,14 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.png";
 import meter2 from "../assets/img/meter2.png";
 import meter3 from "../assets/img/meter3.png";
+import coreldraw from "../assets/img/corellogo.png";
+import reactLogo from "../assets/img/react.png";
+import nodelogo from "../assets/img/nodejs.png";
+import javascript from "../assets/img/javascript.png";
+import logodesign from "../assets/img/logodesign.png";
+import vuejs from "../assets/img/vuejs.png";
+import tailwindcss from "../assets/img/tailwindcss.png";
+import webdev from "../assets/img/webdev.png";
 
 export const Skills = () => {
   const responsive = {
@@ -35,10 +43,10 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>
                 Possuo um conjunto diversificado de habilidades que inclui
-                desenvolvimento front-end e back-end, além de design. <br></br> Sou
-                proficiente em HTML, CSS, JavaScript, React, Node.js e muito
-                mais. <br></br> Estou sempre ansioso para aprender novas tecnologias e
-                aprimorar minhas habilidades.
+                desenvolvimento front-end e back-end, além de design. <br></br>{" "}
+                Sou proficiente em HTML, CSS, JavaScript, React, Node.js e muito
+                mais. <br></br> Estou sempre ansioso para aprender novas
+                tecnologias e aprimorar minhas habilidades.
               </p>
               <Carousel
                 responsive={responsive}
@@ -46,31 +54,35 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Skill 1" />
+                  <img src={tailwindcss} alt="Skill 1" />
+                  <h5>TailwindCSS</h5>
+                </div>
+                <div className="item">
+                  <img src={webdev} alt="Skill 1" />
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill 2" />
-                  <h5>Brand Identify</h5>
+                  <img src={vuejs} alt="Skill 2" />
+                  <h5>VueJS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Skill 3" />
+                  <img src={logodesign} alt="Skill 3" />
                   <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill 4" />
-                  <h5>UX/UI Design</h5>
+                  <img src={coreldraw} alt="Skill 4" />
+                  <h5>CorelDraw</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Skill 4" />
+                  <img src={reactLogo} alt="Skill 4" />
                   <h5>React.JS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill 4" />
+                  <img src={nodelogo} alt="Skill 4" />
                   <h5>Node.JS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill 4" />
+                  <img src={javascript} alt="Skill 4" />
                   <h5>Javascript</h5>
                 </div>
               </Carousel>

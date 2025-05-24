@@ -7,6 +7,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { Link } from "react-scroll";
 
+
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -36,9 +37,7 @@ export const NavBar = () => {
           <img src={logo} alt="Logo" id="logo" />
         </Navbar.Brand>
 
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <span className="navbar-toggler-icon"></span>
-        <Navbar.Toggle/> */}
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -75,13 +74,22 @@ export const NavBar = () => {
               <a
                 href="https://www.linkedin.com/in/markfreitaas/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src={navIcon1}></img>
               </a>
-              <a href="https>//www.github.com/markfreitaas" target="_blank">
+              <a
+                href="https://www.github.com/markfreitaas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon2}></img>
               </a>
-              <a href="https://www.instagram.com/omarkfreitas/" target="_blank">
+              <a
+                href="https://www.instagram.com/omarkfreitas/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon3}></img>
               </a>
             </div>
