@@ -1,5 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { BsArrowRight } from "react-icons/bs";
+
+import { CiViewTimeline } from "react-icons/ci";
+
 import headerImg from "../assets/img/image.jpg";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
@@ -60,21 +62,9 @@ export const Banner = () => {
               aplicativos dinâmicos e responsivos. Adoro transformar ideias em
               realidade usando as tecnologias mais recentes.
             </p>
-            {/* <button className="connect-banner" onClick={() => console.log("connect")}>
-                            Let's Connect <BsArrowRight size={25} />
-                        </button> */}
-            <Link
-              to="connect"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              className="connect-banner"
-              spy={true} // observa o scroll
-            >
-              <span>
-                Vamos Conversar <BsArrowRight size={25} />
-              </span>
-            </Link>
+            <a href="/curriculo.pdf" download className="connect-banner">
+              Download Currículo <CiViewTimeline size={25} className="icon-hover"/>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} className="perfil-photo" alt="Header Img" />

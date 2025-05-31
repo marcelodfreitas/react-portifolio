@@ -141,6 +141,14 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   transition: 0.3s ease-in-out;
 }
 
+.icon-hover {
+  transition: transform 0.3s ease;
+}
+
+.connect-banner:hover .icon-hover {
+  transform: scale(1.1);
+}
+
 .social-icon {
   display: flex;
   gap: 10px;
